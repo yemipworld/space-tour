@@ -132,6 +132,29 @@
     font-style: normal;
   }
       
-
+  .background-container {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @screen sm { /* For small screens (less than 640px) */
+    .background-container {
+      background-image: url('/images/background-small.jpg');
+    }
+  }
+  
+  @screen md { /* For medium screens (640px to 767px) */
+    .background-container {
+      background-image: url('/images/background-medium.jpg');
+    }
+  }
+  
+  @screen lg { /* For large screens (768px and up) */
+    .background-container {
+      background-image: url('/images/background-large.jpg');
+    }
+  }
 
 
