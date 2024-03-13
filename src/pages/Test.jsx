@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const Test = () => {
   const [data, setData] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:7000/api/users")
+    fetch("https://express-f3.vercel.app/api/users")
     .then(res => res.json())
     .then(res =>{
         console.log(res)

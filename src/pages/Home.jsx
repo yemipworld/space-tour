@@ -9,7 +9,7 @@ const Home = () => {
         backgroundRepeat: "no-repeat",
         backgroundImage: `url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
       }}
-      className=" h-screen px-36 pt-24 text-white flex flex-col justify-center"
+      className=" h-screen hidden px-36 pt-24 text-white flex flex-col justify-center"
     >
       <div className="flex justify-between items-center ">
         <div className="w-[31.5%] text-[#D0D6F9]">
